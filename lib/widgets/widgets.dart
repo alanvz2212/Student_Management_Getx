@@ -37,7 +37,6 @@ Widget buildStudentListTile(
         } else {
           Get.to(() => ProfileScreen(studentId: student.id!));
         }
-        child:
         ListTile(
           leading: student.imagePath != null
               ? CircleAvatar(
